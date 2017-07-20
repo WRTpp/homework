@@ -1,0 +1,103 @@
+.clearFix:after{
+  clear: both;
+  display: block;
+  content:''
+}
+.box{
+  width: 280px;
+  height: 340px;
+  background-color: #535b5b;
+  padding: 30px 22px;
+  margin: 100px auto;
+
+  h1{
+    color: white;
+  }
+  >ul{
+    margin-top:22px;
+    >li{
+      position: relative;
+      font-size:12px;
+      >p{
+        width: 276px;
+        line-height: 32px;
+        color: #fdfdfd;
+        span:first-child{
+          float: left;
+        }
+        span:last-child{
+          float: right;
+        }
+      }
+      .input{
+        width: 280px;
+        border-bottom: 1px solid #cecece;
+        background-color: #fff;
+        div:first-child{
+          padding:0 8px;
+          float: left;
+          width: 221px;
+          height: 44px;
+          line-height: 44px;
+          color: #757575;
+          border-right: 1px solid #d8d8d8;
+          span:first-child{
+            float: left;
+          }
+          span:last-child{
+            float: right;
+          }
+        }
+        div:last-child{
+          line-height:44px;
+          text-align: center;
+          color: #818181;
+          cursor: pointer;
+        }
+      }
+      .select{
+        position: absolute;
+        z-index: 2;
+        width: 280px;
+        top: 77px;
+        display: none;
+        left: 0;
+        background-color: #fff;
+        li{
+          padding: 5px;
+          i{
+            font-style: normal!important;
+          }
+        }
+        li:hover{
+          cursor: pointer;
+          background-color: #c6d6e7;
+        }
+      }
+
+    }
+    .btn{
+      width: 280px;
+      margin: 20px 0;
+      font-size: 14px;
+      div{
+        width: 280px;
+        text-align: center;
+        height: 44px;
+        line-height: 44px;
+        color: rgba(222, 222, 222, 0.11);
+        background-color: #0295ef;
+        a{
+          display: block;
+        }
+      }
+    }
+    >li:last-child{
+      text-align: center;
+      span{
+        font-size: 10px;
+        color: #d8d8d8;
+      }
+    }
+  }
+}

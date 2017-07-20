@@ -1,0 +1,82 @@
+.clearFix:after {
+  clear: both;
+  display: block;
+  content: ""; }
+
+.box {
+  width: 280px;
+  height: 340px;
+  background-color: #535b5b;
+  padding: 30px 22px;
+  margin: 100px auto; }
+  .box h1 {
+    color: white; }
+  .box > ul {
+    margin-top: 22px; }
+    .box > ul > li {
+      position: relative;
+      font-size: 12px; }
+      .box > ul > li > p {
+        width: 276px;
+        line-height: 32px;
+        color: #fdfdfd; }
+        .box > ul > li > p span:first-child {
+          float: left; }
+        .box > ul > li > p span:last-child {
+          float: right; }
+      .box > ul > li .input {
+        width: 280px;
+        border-bottom: 1px solid #cecece;
+        background-color: #fff; }
+        .box > ul > li .input div:first-child {
+          padding: 0 8px;
+          float: left;
+          width: 221px;
+          height: 44px;
+          line-height: 44px;
+          color: #757575;
+          border-right: 1px solid #d8d8d8; }
+          .box > ul > li .input div:first-child span:first-child {
+            float: left; }
+          .box > ul > li .input div:first-child span:last-child {
+            float: right; }
+        .box > ul > li .input div:last-child {
+          line-height: 44px;
+          text-align: center;
+          color: #818181;
+          cursor: pointer; }
+      .box > ul > li .select {
+        position: absolute;
+        z-index: 2;
+        width: 280px;
+        top: 77px;
+        display: none;
+        left: 0;
+        background-color: #fff; }
+        .box > ul > li .select li {
+          padding: 5px; }
+          .box > ul > li .select li i {
+            font-style: normal !important; }
+        .box > ul > li .select li:hover {
+          cursor: pointer;
+          background-color: #c6d6e7; }
+    .box > ul .btn {
+      width: 280px;
+      margin: 20px 0;
+      font-size: 14px; }
+      .box > ul .btn div {
+        width: 280px;
+        text-align: center;
+        height: 44px;
+        line-height: 44px;
+        color: rgba(222, 222, 222, 0.11);
+        background-color: #0295ef; }
+        .box > ul .btn div a {
+          display: block; }
+    .box > ul > li:last-child {
+      text-align: center; }
+      .box > ul > li:last-child span {
+        font-size: 10px;
+        color: #d8d8d8; }
+
+/*# sourceMappingURL=index.css.map */
